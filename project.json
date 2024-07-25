@@ -1,0 +1,47 @@
+{
+    "project_name": "Dinkle",
+    "version": "1.0.0",
+    "project_id": "{78E0933B-23CA-4191-AC1D-8D8D28DE7E58}",
+    "origin": "The primary repo for Dinkle goes here: i.e. http://www.mydomain.com",
+    "license": "What license Dinkle uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Dinkle",
+    "summary": "A short description of Dinkle.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Dinkle"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "Dinkle",
+    "gem_names": [
+        "Dinkle",
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "MiniAudio",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "RemoteTools"
+    ],
+    "engine_version": "2.3.0"
+}
