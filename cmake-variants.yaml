@@ -1,0 +1,7 @@
+buildType:
+  default: profile
+  choices:
+    profile:
+      short: Profile
+      long: Profile build
+      buildType: profile

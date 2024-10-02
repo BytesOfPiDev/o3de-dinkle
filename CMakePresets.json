@@ -1,11 +1,33 @@
 {
-    "version": 4,
-    "cmakeMinimumRequired": {
-        "major": 3,
-        "minor": 23,
-        "patch": 0
-    },
-    "include": [
-        "user/cmake/engine/CMakePresets.json"
-    ]
+  "version": 4,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 23,
+    "patch": 0
+  },
+  "include": ["user/cmake/engine/CMakePresets.json"],
+  "configurePresets": [
+    {
+      "name": "dinkle-default",
+      "displayName": "Dinkle Default Config",
+      "description": "Dinkle Default build w/ Ninja Multi-Config",
+      "generator": "Ninja Multi-Config",
+      "binaryDir": "${sourceDir}/build/linux",
+      "cacheVariables": {
+        "LY_UNITY_BUILD": false,
+        "LY_PARALLEL_LINK_JOBS": "4",
+        "LY_DISABLE_TEST_MODULES": false,
+        "LY_STRIP_DEBUG_SYMBOLS": false,
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true,
+        "LY_CMAKE_PATH":"cmake"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "dinkle-default",
+      "configurePreset": "dinkle-default",
+      "configuration": "profile"
+    }
+  ]
 }
