@@ -1,22 +1,18 @@
-
-#include <AzCore/Serialization/SerializeContext.h>
-
 #include "DinkleSystemComponent.h"
 
-#include <Dinkle/DinkleTypeIds.h>
+#include "AzCore/Serialization/SerializeContext.h"
+
+#include "Dinkle/DinkleTypeIds.h"
 
 namespace Dinkle
 {
-    AZ_COMPONENT_IMPL(DinkleSystemComponent, "DinkleSystemComponent",
-        DinkleSystemComponentTypeId);
+    AZ_COMPONENT_IMPL(DinkleSystemComponent, "DinkleSystemComponent", DinkleSystemComponentTypeId);
 
     void DinkleSystemComponent::Reflect(AZ::ReflectContext* context)
     {
         if (auto serializeContext = azrtti_cast<AZ::SerializeContext*>(context))
         {
-            serializeContext->Class<DinkleSystemComponent, AZ::Component>()
-                ->Version(0)
-                ;
+            serializeContext->Class<DinkleSystemComponent, AZ::Component>()->Version(0);
         }
     }
 
@@ -67,4 +63,4 @@ namespace Dinkle
     {
         DinkleRequestBus::Handler::BusDisconnect();
     }
-}
+} // namespace Dinkle

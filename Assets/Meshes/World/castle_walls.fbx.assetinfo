@@ -1,0 +1,90 @@
+{
+    "values": [
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "castle_walls",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Camera",
+                    "RootNode.CityWall w211285906",
+                    "RootNode.CityWall w211285912",
+                    "RootNode.CityWall w211285938",
+                    "RootNode.CityWall w211285939",
+                    "RootNode.CityWall w211285940",
+                    "RootNode.CityWall w211285941",
+                    "RootNode.CityWall w211285950",
+                    "RootNode.CityWall w211285954",
+                    "RootNode.CityWall w211285959",
+                    "RootNode.CityWall w211285961",
+                    "RootNode.CityWall w211285967",
+                    "RootNode.CityWall w211285970",
+                    "RootNode.CityWall w322436973",
+                    "RootNode.CityWall w41662817",
+                    "RootNode.CityWall w41662818",
+                    "RootNode.CityWall w41663213",
+                    "RootNode.CityWall w41663215",
+                    "RootNode.CityWall w41664535",
+                    "RootNode.CityWall w41664538",
+                    "RootNode.CityWall w41664539",
+                    "RootNode.CityWall w41664540",
+                    "RootNode.CityWall w41665115",
+                    "RootNode.CityWall w41665116",
+                    "RootNode.CityWall w41665117",
+                    "RootNode.CityWall w41665130",
+                    "RootNode.CityWall w41666843",
+                    "RootNode.CityWall w41666848",
+                    "RootNode.CityWall w41666849",
+                    "RootNode.CityWall w41667885",
+                    "RootNode.CityWall w41667887",
+                    "RootNode.CityWall w41667895",
+                    "RootNode.CityWall w41676425",
+                    "RootNode.CityWall w948247968",
+                    "RootNode.CityWall w948840556",
+                    "RootNode.CityWall w948840563",
+                    "RootNode.CityWall w948840567",
+                    "RootNode.CityWall w948840571",
+                    "RootNode.CityWall w948840573",
+                    "RootNode.CityWall w948840576",
+                    "RootNode.CityWall w948956202",
+                    "RootNode.CityWall w949128735",
+                    "RootNode.CityWall w949128736",
+                    "RootNode.CityWall w949128737",
+                    "RootNode.CityWall w949128738",
+                    "RootNode.CityWall w949128739",
+                    "RootNode.CityWall w949128751",
+                    "RootNode.CityWall w949130309",
+                    "RootNode.CityWall w949131537",
+                    "RootNode.CityWall w949131542",
+                    "RootNode.CityWall w949176290",
+                    "RootNode.CityWall w949311083",
+                    "RootNode.CityWall w949329081",
+                    "RootNode.CityWall w949337156",
+                    "RootNode.CityWall w949337157",
+                    "RootNode.CityWall w949337160",
+                    "RootNode.CityWall w949337163",
+                    "RootNode.CityWall w949934586",
+                    "RootNode.Light"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule",
+                        "updateMaterials": true,
+                        "removeMaterials": true
+                    }
+                ]
+            },
+            "id": "{E0DD4699-EBEC-5AA2-A1F7-B9AF5916DB91}"
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        }
+    ]
+}

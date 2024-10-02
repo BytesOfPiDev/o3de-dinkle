@@ -1,4 +1,3 @@
-
 #include <AzCore/Memory/SystemAllocator.h>
 #include <AzCore/Module/Module.h>
 
@@ -8,8 +7,7 @@
 
 namespace Dinkle
 {
-    class DinkleModule
-        : public AZ::Module
+    class DinkleModule : public AZ::Module
     {
     public:
         AZ_RTTI(DinkleModule, DinkleModuleTypeId, AZ::Module);
@@ -19,9 +17,11 @@ namespace Dinkle
             : AZ::Module()
         {
             // Push results of [MyComponent]::CreateDescriptor() into m_descriptors here.
-            m_descriptors.insert(m_descriptors.end(), {
-                DinkleSystemComponent::CreateDescriptor(),
-            });
+            m_descriptors.insert(
+                m_descriptors.end(),
+                {
+                    DinkleSystemComponent::CreateDescriptor(),
+                });
         }
 
         /**
@@ -34,7 +34,7 @@ namespace Dinkle
             };
         }
     };
-}// namespace Dinkle
+} // namespace Dinkle
 
 #if defined(O3DE_GEM_NAME)
 AZ_DECLARE_MODULE_CLASS(AZ_JOIN(Gem_, O3DE_GEM_NAME), Dinkle::DinkleModule)

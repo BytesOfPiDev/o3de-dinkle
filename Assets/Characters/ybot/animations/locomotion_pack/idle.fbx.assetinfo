@@ -1,0 +1,45 @@
+{
+    "values": [
+        {
+            "$type": "MotionGroup",
+            "name": "idle",
+            "selectedRootBone": "RootNode",
+            "id": "{BDDEF9DB-CA45-5CFD-BCA6-033FCCBF42ED}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::RootMotionExtractionRule",
+                        "data": {
+                            "sampleJoint": "mixamorig:Hips"
+                        }
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::MotionMetaDataRule",
+                        "data": {
+                            "motionEventTable": {
+                                "tracks": [
+                                    {
+                                        "$type": "AnimGraphSyncTrack",
+                                        "name": "Sync",
+                                        "deletable": false
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Characters/ybot/animations/locomotion_pack/idle_fbx.procprefab",
+            "id": "{0D3AC760-271A-58A3-B1FB-FE7BDE433F8F}"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+<ObjectStream version="3">
+	<Class name="SaEventAsset" version="7" type="{42A942C7-E634-4D1C-A4D2-DB894A035230}">
+		<Class name="AssetData" field="BaseClass1" version="1" type="{AF3F7D32-1536-422A-89F3-A11E1F5B5A9C}"/>
+		<Class name="AZStd::string" field="Name" value="hi_there01" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+		<Class name="SaEventId" field="EventId" type="{9D910540-BC73-424F-8C05-3236DDAC4E96}">
+			<Class name="AZ::u64" field="Value" value="4053544000" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+		</Class>
+		<Class name="AZStd::vector&lt;Asset&lt;SaSoundSourceData&gt;, allocator&gt;" field="Sounds" type="{CE521DF5-2457-5504-BAC1-35DDE7567368}">
+			<Class name="Asset&lt;SaSoundSourceData&gt;" field="element" value="id={91A706B3-364B-5012-8473-8C8729F88396}:0,type={CD038A39-CF2C-4A69-9877-DC7EFE284F25},hint={sounds/steamaudio/banks/hi_there01.sasoundsource},loadBehavior=1" version="3" type="{0E2489F8-8892-5B08-ACA0-483E7C9CBB06}"/>
+		</Class>
+	</Class>
+</ObjectStream>
+

@@ -1,0 +1,13 @@
+<ObjectStream version="3">
+	<Class name="SaSoundSourceData" version="3" type="{CD038A39-CF2C-4A69-9877-DC7EFE284F25}">
+		<Class name="AssetData" field="BaseClass1" version="1" type="{AF3F7D32-1536-422A-89F3-A11E1F5B5A9C}"/>
+		<Class name="Asset&lt;SteamAudioSoundAsset&gt;" field="Sound" value="id={103E3430-DBEB-5E46-8E8E-EBFF6BA8FEBE}:1,type={C94B5C4C-EBCA-4203-9FE4-EFCFCE707D28},hint={sounds/steamaudio/banks/dlg/01_welcome_01.wav.sasound},loadBehavior=1" version="3" type="{648382C1-E7BC-59E1-8806-DCDC34F925DA}"/>
+		<Class name="Name" field="Name" value="hallo" type="{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}"/>
+		<Class name="AZStd::string" field="NameAsString" value="hallo" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+		<Class name="SoundConfig" field="SoundSettings" version="2" type="{10FC12F6-E2CD-4B8B-B8D6-0AA44CA0DE82}">
+			<Class name="float" field="Volume" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+			<Class name="bool" field="Loop" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+		</Class>
+	</Class>
+</ObjectStream>
+

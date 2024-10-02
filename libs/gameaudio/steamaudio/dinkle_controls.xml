@@ -1,0 +1,16 @@
+<ATLConfig atl_name="dinkle_controls">
+	<AudioTriggers>
+		<ATLTrigger atl_name="welcome01">
+			<SaAudioTrigger steamaudio_name="welcome01" steamaudio_soundfile=""/>
+		</ATLTrigger>
+		<ATLTrigger atl_name="hi_there01">
+			<SaAudioTrigger steamaudio_name="hi_there01" steamaudio_soundfile=""/>
+		</ATLTrigger>
+	</AudioTriggers>
+	<AudioPreloads>
+		<ATLPreloadRequest atl_name="preload" atl_type="AutoLoad">
+			<SteamAudioFile steamaudio_name="dlg.sabank"/>
+		</ATLPreloadRequest>
+	</AudioPreloads>
+</ATLConfig>
+

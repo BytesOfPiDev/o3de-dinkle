@@ -1,0 +1,49 @@
+{
+    "values": [
+        {
+            "$type": "LoggingGroup",
+            "groupName": "SteamAudio_0"
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "idle",
+            "selectedRootBone": "RootNode",
+            "id": "{7EF1B89C-F76B-5AB3-9A55-8D02F024FD2F}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::MotionMetaDataRule",
+                        "data": {
+                            "motionEventTable": {
+                                "tracks": [
+                                    {
+                                        "$type": "AnimGraphSyncTrack",
+                                        "name": "Sync",
+                                        "deletable": false
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::RootMotionExtractionRule",
+                        "data": {
+                            "sampleJoint": "RootNode.mixamorig:Hips"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Characters/xbot/animations/locomotion_pack/idle_fbx.procprefab",
+            "id": "{9201D05A-DBA2-5F03-8FF1-47F8DA3BC299}"
+        }
+    ]
+}
