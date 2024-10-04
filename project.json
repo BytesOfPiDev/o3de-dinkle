@@ -28,6 +28,7 @@
         "Dinkle",
         "EMotionFX",
         "EditorPythonBindings",
+        "FastNoise",
         "GameInteraction==1.0.0",
         "GameState",
         "ImGui",

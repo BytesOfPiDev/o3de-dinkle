@@ -1,0 +1,49 @@
+{
+    "values": [
+        {
+            "$type": "LoggingGroup",
+            "groupName": "SteamAudio_0"
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "running",
+            "selectedRootBone": "RootNode",
+            "id": "{86143887-75A2-58A9-AF8B-5E1404D841DE}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::MotionMetaDataRule",
+                        "data": {
+                            "motionEventTable": {
+                                "tracks": [
+                                    {
+                                        "$type": "AnimGraphSyncTrack",
+                                        "name": "Sync",
+                                        "deletable": false
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::RootMotionExtractionRule",
+                        "data": {
+                            "sampleJoint": "RootNode.mixamorig:Hips"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Characters/ybot/animations/locomotion_pack/running_fbx.procprefab",
+            "id": "{7E60C3DA-FE5A-50D4-B4BC-8D65C5E57451}"
+        }
+    ]
+}

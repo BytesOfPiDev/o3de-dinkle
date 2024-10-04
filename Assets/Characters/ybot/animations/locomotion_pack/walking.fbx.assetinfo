@@ -1,0 +1,49 @@
+{
+    "values": [
+        {
+            "$type": "LoggingGroup",
+            "groupName": "SteamAudio_0"
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "walking",
+            "selectedRootBone": "RootNode",
+            "id": "{5A36C0B5-8372-5F78-A21A-EC158905A306}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::MotionMetaDataRule",
+                        "data": {
+                            "motionEventTable": {
+                                "tracks": [
+                                    {
+                                        "$type": "AnimGraphSyncTrack",
+                                        "name": "Sync",
+                                        "deletable": false
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "$type": "EMotionFX::Pipeline::Rule::RootMotionExtractionRule",
+                        "data": {
+                            "sampleJoint": "RootNode.mixamorig:Hips"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{41DCBEAB-203C-4A05-96FA-98E1D8A96FA1} ImportGroup"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Characters/ybot/animations/locomotion_pack/walking_fbx.procprefab",
+            "id": "{0A5F923A-41E5-5814-8D80-EBE0E0D3D00E}"
+        }
+    ]
+}
