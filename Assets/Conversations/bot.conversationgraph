@@ -36,7 +36,10 @@
                             },
                             "Value": {
                                 "m_value": {
-                                    "$type": "DialogueChunk"
+                                    "$type": "DialogueChunk",
+                                    "Value": {
+                                        "Data": "Welcome, stranger! "
+                                    }
                                 }
                             }
                         },
@@ -58,7 +61,7 @@
                             "Value": {
                                 "m_value": {
                                     "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
-                                    "Value": "Greetings!!"
+                                    "Value": "Hello"
                                 }
                             }
                         }
@@ -134,7 +137,10 @@
                             },
                             "Value": {
                                 "m_value": {
-                                    "$type": "ConversationControl"
+                                    "$type": "ConversationControl",
+                                    "Value": {
+                                        "Control": "Pleasure to meet you."
+                                    }
                                 }
                             }
                         },
@@ -157,7 +163,7 @@
                                 "m_value": {
                                     "$type": "DialogueChunk",
                                     "Value": {
-                                        "Data": "..."
+                                        "Data": "<img src=\"UI/UIpack_RPG/PNG/arrowSilver_right.png\" vAlign=\"center\" height=\"fontHeight\" scale=\"1.5\" yOffset=\"5\" xPadding=\"6\"/> What have you got for sale, anything good?"
                                     }
                                 }
                             }
@@ -180,7 +186,7 @@
                             "Value": {
                                 "m_value": {
                                     "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
-                                    "Value": "What's for sale?"
+                                    "Value": "Nice to meet you"
                                 }
                             }
                         }
@@ -411,7 +417,7 @@
                                 "m_value": {
                                     "$type": "DialogueChunk",
                                     "Value": {
-                                        "Data": "..."
+                                        "Data": "This a might quiet town. I didn't expect such a fully stocked weapons shop."
                                     }
                                 }
                             }
@@ -434,7 +440,7 @@
                             "Value": {
                                 "m_value": {
                                     "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
-                                    "Value": "..."
+                                    "Value": "Quiet town"
                                 }
                             }
                         }
@@ -528,23 +534,712 @@
                     },
                     "configId": "{3D118783-22FA-4FDC-99E5-711215AFF7AF}"
                 }
+            },
+            {
+                "Key": 15,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "m_inputDataSlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_chunk"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk",
+                                    "Value": {
+                                        "Data": "Debug.Log(\"Hai\")"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{FEAD33E7-59F1-4420-9F9D-534578D70C24}"
+                }
+            },
+            {
+                "Key": 16,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "m_propertySlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_audioControl"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "ConversationControl"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_comment"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_dialogueChunk"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk",
+                                    "Value": {
+                                        "Data": "Good to see you again!"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_isStarter"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "bool",
+                                    "Value": true
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_shortText"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": "Welcome back!"
+                                }
+                            }
+                        }
+                    ],
+                    "m_inputDataSlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_condition"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_entryDelay"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "int",
+                                    "Value": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_parent"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "UniqueId"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_script"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_speakerTag"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        }
+                    ],
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{93A359D9-1E7A-4EAC-87E9-E68D095C1D87}"
+                }
+            },
+            {
+                "Key": 18,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{3D118783-22FA-4FDC-99E5-711215AFF7AF}"
+                }
+            },
+            {
+                "Key": 19,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "m_propertySlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_audioControl"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "ConversationControl"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_comment"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_dialogueChunk"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk",
+                                    "Value": {
+                                        "Data": "I need supplies. Food, clothes ... medicine..."
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_isStarter"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "bool",
+                                    "Value": false
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_shortText"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": "Got supplies?"
+                                }
+                            }
+                        }
+                    ],
+                    "m_inputDataSlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_condition"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_entryDelay"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "int",
+                                    "Value": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_parent"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "UniqueId"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_script"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_speakerTag"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        }
+                    ],
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{93A359D9-1E7A-4EAC-87E9-E68D095C1D87}"
+                }
+            },
+            {
+                "Key": 21,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "m_propertySlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_audioControl"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "ConversationControl"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_comment"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_dialogueChunk"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk",
+                                    "Value": {
+                                        "Data": "Sigh. Don't tell me you believe what those plague doctors are yapping about."
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_isStarter"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "bool",
+                                    "Value": true
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_shortText"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": "Another worrier..."
+                                }
+                            }
+                        }
+                    ],
+                    "m_inputDataSlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_condition"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_entryDelay"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "int",
+                                    "Value": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_parent"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "UniqueId"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_script"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_speakerTag"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        }
+                    ],
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{93A359D9-1E7A-4EAC-87E9-E68D095C1D87}"
+                }
+            },
+            {
+                "Key": 22,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{4D349B88-02BD-487C-B0B3-B519615B029B}"
+                }
+            },
+            {
+                "Key": 23,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{3D118783-22FA-4FDC-99E5-711215AFF7AF}"
+                }
+            },
+            {
+                "Key": 24,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "m_propertySlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_audioControl"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "ConversationControl"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_comment"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_dialogueChunk"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk",
+                                    "Value": {
+                                        "Data": "Listen. People are getting sick left and right. Some are dying ... slowly, but surely. Now there are reports of people ... changing, glowing. I know a sign to leave when I see it."
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_isStarter"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "bool",
+                                    "Value": false
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_shortText"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": "People are dying"
+                                }
+                            }
+                        }
+                    ],
+                    "m_inputDataSlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_condition"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_entryDelay"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "int",
+                                    "Value": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_parent"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "UniqueId"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_script"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_speakerTag"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        }
+                    ],
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{93A359D9-1E7A-4EAC-87E9-E68D095C1D87}"
+                }
+            },
+            {
+                "Key": 25,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{4D349B88-02BD-487C-B0B3-B519615B029B}"
+                }
+            },
+            {
+                "Key": 26,
+                "Value": {
+                    "$type": "DynamicNode",
+                    "m_propertySlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_audioControl"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "ConversationControl"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_comment"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_dialogueChunk"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk",
+                                    "Value": {
+                                        "Data": "Staying put?"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_isStarter"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "bool",
+                                    "Value": false
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_shortText"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": "You staying?"
+                                }
+                            }
+                        }
+                    ],
+                    "m_inputDataSlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_condition"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_entryDelay"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "int",
+                                    "Value": 0
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_parent"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "UniqueId"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_script"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "DialogueChunk"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_speakerTag"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "Value": ""
+                                }
+                            }
+                        }
+                    ],
+                    "toolId": {
+                        "Value": 997303208
+                    },
+                    "configId": "{93A359D9-1E7A-4EAC-87E9-E68D095C1D87}"
+                }
+            },
+            {
+                "Key": 27,
+                "Value": {
+                    "$type": "LinkNode",
+                    "m_inputDataSlots": [
+                        {
+                            "Key": {
+                                "m_name": "in_from"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "UniqueId"
+                                }
+                            }
+                        },
+                        {
+                            "Key": {
+                                "m_name": "in_to"
+                            },
+                            "Value": {
+                                "m_value": {
+                                    "$type": "UniqueId"
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "m_connections": [
-            {
-                "m_sourceEndpoint": [
-                    1,
-                    {
-                        "m_name": "out_id"
-                    }
-                ],
-                "m_targetEndpoint": [
-                    2,
-                    {
-                        "m_name": "in_parent"
-                    }
-                ]
-            },
             {
                 "m_sourceEndpoint": [
                     5,
@@ -568,20 +1263,6 @@
                 ],
                 "m_targetEndpoint": [
                     6,
-                    {
-                        "m_name": "in_parent"
-                    }
-                ]
-            },
-            {
-                "m_sourceEndpoint": [
-                    1,
-                    {
-                        "m_name": "out_id"
-                    }
-                ],
-                "m_targetEndpoint": [
-                    7,
                     {
                         "m_name": "in_parent"
                     }
@@ -628,6 +1309,202 @@
                         "m_name": "in_speakerTag"
                     }
                 ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    15,
+                    {
+                        "m_name": "out_chunk"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    1,
+                    {
+                        "m_name": "in_script"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    16,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    7,
+                    {
+                        "m_name": "in_parent"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    18,
+                    {
+                        "m_name": "outValue"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    16,
+                    {
+                        "m_name": "in_speakerTag"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    1,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    19,
+                    {
+                        "m_name": "in_parent"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    19,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    21,
+                    {
+                        "m_name": "in_parent"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    22,
+                    {
+                        "m_name": "outValue"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    19,
+                    {
+                        "m_name": "in_speakerTag"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    23,
+                    {
+                        "m_name": "outValue"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    21,
+                    {
+                        "m_name": "in_speakerTag"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    21,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    24,
+                    {
+                        "m_name": "in_parent"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    25,
+                    {
+                        "m_name": "outValue"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    24,
+                    {
+                        "m_name": "in_speakerTag"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    1,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    2,
+                    {
+                        "m_name": "in_parent"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    1,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    26,
+                    {
+                        "m_name": "in_parent"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    22,
+                    {
+                        "m_name": "outValue"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    26,
+                    {
+                        "m_name": "in_speakerTag"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    26,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    27,
+                    {
+                        "m_name": "in_from"
+                    }
+                ]
+            },
+            {
+                "m_sourceEndpoint": [
+                    21,
+                    {
+                        "m_name": "out_id"
+                    }
+                ],
+                "m_targetEndpoint": [
+                    27,
+                    {
+                        "m_name": "in_to"
+                    }
+                ]
             }
         ],
         "m_uiMetadata": {
@@ -635,10 +1512,62 @@
                 "ComponentData": {
                     "{5F84B500-8C45-40D1-8EFC-A5306B241444}": {
                         "$type": "SceneComponentSaveData",
+                        "Constructs": [
+                            {
+                                "Type": 3,
+                                "DataContainer": {
+                                    "ComponentData": {
+                                        "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                            "$type": "NodeSaveData"
+                                        },
+                                        "{524D8380-AC09-444E-870E-9CEF2535B4A2}": {
+                                            "$type": "CommentNodeTextSaveData",
+                                            "Comment": "First Time",
+                                            "BackgroundColor": [
+                                                0.9800000190734863,
+                                                0.9700000286102295,
+                                                0.6499999761581421
+                                            ],
+                                            "FontSettings": {
+                                                "PixelSize": 16
+                                            }
+                                        },
+                                        "{6F4811ED-BD83-4A2A-8831-58EEA4020D57}": {
+                                            "$type": "NodeGroupFrameComponentSaveData",
+                                            "DisplayHeight": 669.0,
+                                            "DisplayWidth": 2100.0,
+                                            "PersistentGroupedId": [
+                                                "{F094932D-B1FA-4225-9911-DD42C09E7E43}",
+                                                "{F4D6CF2C-B459-407D-9BF8-3AEA95F6412A}",
+                                                "{F74AECD4-0B69-49FE-9874-3A17B7774E48}",
+                                                "{C5119B11-62E2-4CC6-B4E5-8EC823A8F878}",
+                                                "{29A06BFA-6DF6-4B4E-A760-1A7D0CB82DFD}",
+                                                "{F073FB19-F501-4841-A531-4B4C151DE212}",
+                                                "{29F44711-3956-4BD9-BCCE-2C7F6BD3240B}"
+                                            ]
+                                        },
+                                        "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                            "$type": "GeometrySaveData",
+                                            "Position": [
+                                                -580.0,
+                                                -780.0
+                                            ]
+                                        },
+                                        "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                            "$type": "StylingComponentSaveData"
+                                        },
+                                        "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                            "$type": "PersistentIdComponentSaveData",
+                                            "PersistentId": "{0656A4BC-FB5B-4945-853F-62DBDFA63BA0}"
+                                        }
+                                    }
+                                }
+                            }
+                        ],
                         "ViewParams": {
-                            "Scale": 2.0,
-                            "AnchorX": -521.5,
-                            "AnchorY": -93.5
+                            "Scale": 0.8412312871982417,
+                            "AnchorX": 28.52960968017578,
+                            "AnchorY": 10.698603630065918
                         }
                     }
                 }
@@ -658,8 +1587,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    -280.0,
-                                    -200.0
+                                    -260.0,
+                                    -460.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -668,10 +1597,6 @@
                             "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
                                 "$type": "PersistentIdComponentSaveData",
                                 "PersistentId": "{F094932D-B1FA-4225-9911-DD42C09E7E43}"
-                            },
-                            "{FC18625B-1E97-415D-9832-B222DE054680}": {
-                                "$type": "GraphCanvasSelectionData",
-                                "selected": true
                             }
                         }
                     }
@@ -690,8 +1615,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    360.0,
-                                    -280.0
+                                    380.0,
+                                    -700.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -782,8 +1707,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    200.0,
-                                    20.0
+                                    220.0,
+                                    -500.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -810,8 +1735,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    1060.0,
-                                    -400.0
+                                    1080.0,
+                                    -720.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -838,8 +1763,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    360.0,
-                                    140.0
+                                    -20.0,
+                                    600.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -866,8 +1791,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    160.0,
-                                    300.0
+                                    -180.0,
+                                    800.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -894,8 +1819,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    840.0,
-                                    -100.0
+                                    920.0,
+                                    -520.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -954,8 +1879,8 @@
                             "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
                                 "$type": "GeometrySaveData",
                                 "Position": [
-                                    -500.0,
-                                    20.0
+                                    -420.0,
+                                    -340.0
                                 ]
                             },
                             "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
@@ -964,6 +1889,474 @@
                             "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
                                 "$type": "PersistentIdComponentSaveData",
                                 "PersistentId": "{C5119B11-62E2-4CC6-B4E5-8EC823A8F878}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 12,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    -380.0,
+                                    200.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{C227874B-909C-451A-837E-69499D9A57AB}"
+                            },
+                            "{FC18625B-1E97-415D-9832-B222DE054680}": {
+                                "$type": "GraphCanvasSelectionData",
+                                "selected": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 13,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    -600.0,
+                                    40.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{DAAB5562-6F57-4014-B3AB-B067700C7CDD}"
+                            },
+                            "{FC18625B-1E97-415D-9832-B222DE054680}": {
+                                "$type": "GraphCanvasSelectionData",
+                                "selected": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 14,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    -560.0,
+                                    40.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{ECCB5574-1BB4-4F3E-8B63-559FD8E0D9B7}"
+                            },
+                            "{FC18625B-1E97-415D-9832-B222DE054680}": {
+                                "$type": "GraphCanvasSelectionData",
+                                "selected": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 15,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "FunctionNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    -560.0,
+                                    -220.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{F4D6CF2C-B459-407D-9BF8-3AEA95F6412A}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 16,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DialogueOutputNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    -480.0,
+                                    480.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{43B0A8E4-5D11-4677-9C93-F4B853222087}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 17,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    -420.0,
+                                    80.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{28007F7B-7629-465F-B19F-621ACE92F4F0}"
+                            },
+                            "{FC18625B-1E97-415D-9832-B222DE054680}": {
+                                "$type": "GraphCanvasSelectionData",
+                                "selected": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 18,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    -640.0,
+                                    680.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{E3C60FB2-495B-4627-B347-3576AF065101}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 19,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DialogueOutputNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    320.0,
+                                    -100.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{27A56A98-F313-4714-A8E7-BE52763B4868}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 20,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DialogueOutputNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    1120.0,
+                                    600.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{AD3A229B-ED3C-40E2-9328-78F358436ACC}"
+                            },
+                            "{FC18625B-1E97-415D-9832-B222DE054680}": {
+                                "$type": "GraphCanvasSelectionData",
+                                "selected": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 21,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DialogueOutputNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    920.0,
+                                    -100.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{DAA779B4-A9E3-4A88-8BC2-ADF13F3F7C3D}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 22,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    40.0,
+                                    200.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{348A0961-4B3B-4AB2-89A5-31753ADC7779}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 23,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    760.0,
+                                    100.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{47961D1C-8AF1-4CB8-B8B0-A02B2C11E185}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 24,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DialogueOutputNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    1520.0,
+                                    -100.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{EA8945E0-50E3-46F0-B02D-A2FC8AED7124}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 25,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DefaultNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    1360.0,
+                                    100.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{5ED01596-844E-4020-A262-1DDA8F25D06F}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 26,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "DialogueOutputNodeTitlePalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    320.0,
+                                    200.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{F76FB5B2-DDD0-46C0-B117-E050C1090F12}"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Key": 27,
+                    "Value": {
+                        "ComponentData": {
+                            "{24CB38BB-1705-4EC5-8F63-B574571B4DCD}": {
+                                "$type": "NodeSaveData"
+                            },
+                            "{328FF15C-C302-458F-A43D-E1794DE0904E}": {
+                                "$type": "GeneralNodeTitleComponentSaveData",
+                                "PaletteOverride": "LinkDataColorPalette"
+                            },
+                            "{7CC444B1-F9B3-41B5-841B-0C4F2179F111}": {
+                                "$type": "GeometrySaveData",
+                                "Position": [
+                                    1280.0,
+                                    360.0
+                                ]
+                            },
+                            "{B0B99C8A-03AF-4CF6-A926-F65C874C3D97}": {
+                                "$type": "StylingComponentSaveData"
+                            },
+                            "{B1F49A35-8408-40DA-B79E-F1E3B64322CE}": {
+                                "$type": "PersistentIdComponentSaveData",
+                                "PersistentId": "{A8F43014-C222-4F54-BC13-F937A0C900F3}"
                             }
                         }
                     }

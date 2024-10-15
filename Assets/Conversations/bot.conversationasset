@@ -44,7 +44,7 @@
                                     "field": "ActorText",
                                     "typeName": "AZStd::string",
                                     "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                    "value": "What's for sale?"
+                                    "value": "Nice to meet you"
                                 },
                                 {
                                     "field": "AvailabilityId",
@@ -69,7 +69,7 @@
                                             "field": "Control",
                                             "typeName": "AZStd::string",
                                             "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                            "value": ""
+                                            "value": "Pleasure to meet you."
                                         }
                                     ]
                                 },
@@ -95,7 +95,7 @@
                                             "field": "Data",
                                             "typeName": "AZStd::string",
                                             "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                            "value": "..."
+                                            "value": "<img src=\"UI/UIpack_RPG/PNG/arrowSilver_right.png\" vAlign=\"center\" height=\"fontHeight\" scale=\"1.5\" yOffset=\"5\" xPadding=\"6\"/> What have you got for sale, anything good?"
                                         }
                                     ]
                                 },
@@ -152,7 +152,7 @@
                                     "field": "ActorText",
                                     "typeName": "AZStd::string",
                                     "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                    "value": "..."
+                                    "value": "Hello"
                                 },
                                 {
                                     "field": "AvailabilityId",
@@ -203,99 +203,7 @@
                                             "field": "Data",
                                             "typeName": "AZStd::string",
                                             "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                            "value": "..."
-                                        }
-                                    ]
-                                },
-                                {
-                                    "field": "DialogueId",
-                                    "typeName": "UniqueId",
-                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
-                                    "version": 2,
-                                    "Objects": [
-                                        {
-                                            "field": "Value",
-                                            "typeName": "unsigned int",
-                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
-                                            "value": "1775920179"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "field": "ResponseIds",
-                                    "typeName": "AZStd::vector<UniqueId, allocator>",
-                                    "typeId": "{081739D8-6508-5100-B614-789CE142CAC9}"
-                                },
-                                {
-                                    "field": "Speaker",
-                                    "typeName": "AZStd::string",
-                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                    "value": "player"
-                                }
-                            ]
-                        },
-                        {
-                            "field": "element",
-                            "typeName": "DialogueData",
-                            "typeId": "{6BF81F0F-0013-4877-80EB-4DC579005DDE}",
-                            "version": 8,
-                            "Objects": [
-                                {
-                                    "field": "ActorText",
-                                    "typeName": "AZStd::string",
-                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                    "value": "Greetings!!"
-                                },
-                                {
-                                    "field": "AvailabilityId",
-                                    "typeName": "UniqueId",
-                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
-                                    "version": 2,
-                                    "Objects": [
-                                        {
-                                            "field": "Value",
-                                            "typeName": "unsigned int",
-                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
-                                            "value": "0"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "field": "AudioTrigger",
-                                    "typeName": "ConversationControl",
-                                    "typeId": "{839DC3CD-8F3B-43B3-AE9D-3EC3A4133ADA}",
-                                    "Objects": [
-                                        {
-                                            "field": "Control",
-                                            "typeName": "AZStd::string",
-                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                            "value": ""
-                                        }
-                                    ]
-                                },
-                                {
-                                    "field": "CinematicId",
-                                    "typeName": "Name",
-                                    "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
-                                    "value": ""
-                                },
-                                {
-                                    "field": "Comment",
-                                    "typeName": "AZStd::string",
-                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                    "value": ""
-                                },
-                                {
-                                    "field": "Chunk",
-                                    "typeName": "DialogueChunk",
-                                    "typeId": "{81C04F0E-BA10-4D66-A3E8-0304FB8EB545}",
-                                    "version": 2,
-                                    "Objects": [
-                                        {
-                                            "field": "Data",
-                                            "typeName": "AZStd::string",
-                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
-                                            "value": ""
+                                            "value": "Welcome, stranger! "
                                         }
                                     ]
                                 },
@@ -342,7 +250,21 @@
                                                     "field": "Value",
                                                     "typeName": "unsigned int",
                                                     "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
-                                                    "value": "1775920179"
+                                                    "value": "4110296560"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "field": "element",
+                                            "typeName": "UniqueId",
+                                            "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                            "version": 2,
+                                            "Objects": [
+                                                {
+                                                    "field": "Value",
+                                                    "typeName": "unsigned int",
+                                                    "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                                    "value": "4043652458"
                                                 }
                                             ]
                                         }
@@ -447,6 +369,622 @@
                                     "value": "owner"
                                 }
                             ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "DialogueData",
+                            "typeId": "{6BF81F0F-0013-4877-80EB-4DC579005DDE}",
+                            "version": 8,
+                            "Objects": [
+                                {
+                                    "field": "ActorText",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "Got supplies?"
+                                },
+                                {
+                                    "field": "AvailabilityId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "AudioTrigger",
+                                    "typeName": "ConversationControl",
+                                    "typeId": "{839DC3CD-8F3B-43B3-AE9D-3EC3A4133ADA}",
+                                    "Objects": [
+                                        {
+                                            "field": "Control",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "CinematicId",
+                                    "typeName": "Name",
+                                    "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Comment",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Chunk",
+                                    "typeName": "DialogueChunk",
+                                    "typeId": "{81C04F0E-BA10-4D66-A3E8-0304FB8EB545}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Data",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": "I need supplies. Food, clothes ... medicine..."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "DialogueId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "4110296560"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "ResponseIds",
+                                    "typeName": "AZStd::vector<UniqueId, allocator>",
+                                    "typeId": "{081739D8-6508-5100-B614-789CE142CAC9}",
+                                    "Objects": [
+                                        {
+                                            "field": "element",
+                                            "typeName": "UniqueId",
+                                            "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                            "version": 2,
+                                            "Objects": [
+                                                {
+                                                    "field": "Value",
+                                                    "typeName": "unsigned int",
+                                                    "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                                    "value": "1283796353"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "Speaker",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "player"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "DialogueData",
+                            "typeId": "{6BF81F0F-0013-4877-80EB-4DC579005DDE}",
+                            "version": 8,
+                            "Objects": [
+                                {
+                                    "field": "ActorText",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "You staying?"
+                                },
+                                {
+                                    "field": "AvailabilityId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "AudioTrigger",
+                                    "typeName": "ConversationControl",
+                                    "typeId": "{839DC3CD-8F3B-43B3-AE9D-3EC3A4133ADA}",
+                                    "Objects": [
+                                        {
+                                            "field": "Control",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "CinematicId",
+                                    "typeName": "Name",
+                                    "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Comment",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Chunk",
+                                    "typeName": "DialogueChunk",
+                                    "typeId": "{81C04F0E-BA10-4D66-A3E8-0304FB8EB545}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Data",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": "Staying put?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "DialogueId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "4043652458"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "ResponseIds",
+                                    "typeName": "AZStd::vector<UniqueId, allocator>",
+                                    "typeId": "{081739D8-6508-5100-B614-789CE142CAC9}",
+                                    "Objects": [
+                                        {
+                                            "field": "element",
+                                            "typeName": "UniqueId",
+                                            "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                            "version": 2,
+                                            "Objects": [
+                                                {
+                                                    "field": "Value",
+                                                    "typeName": "unsigned int",
+                                                    "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                                    "value": "1283796353"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "Speaker",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "player"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "DialogueData",
+                            "typeId": "{6BF81F0F-0013-4877-80EB-4DC579005DDE}",
+                            "version": 8,
+                            "Objects": [
+                                {
+                                    "field": "ActorText",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "Welcome back!"
+                                },
+                                {
+                                    "field": "AvailabilityId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "AudioTrigger",
+                                    "typeName": "ConversationControl",
+                                    "typeId": "{839DC3CD-8F3B-43B3-AE9D-3EC3A4133ADA}",
+                                    "Objects": [
+                                        {
+                                            "field": "Control",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "CinematicId",
+                                    "typeName": "Name",
+                                    "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Comment",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Chunk",
+                                    "typeName": "DialogueChunk",
+                                    "typeId": "{81C04F0E-BA10-4D66-A3E8-0304FB8EB545}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Data",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": "Good to see you again!"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "DialogueId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "1903506779"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "ResponseIds",
+                                    "typeName": "AZStd::vector<UniqueId, allocator>",
+                                    "typeId": "{081739D8-6508-5100-B614-789CE142CAC9}",
+                                    "Objects": [
+                                        {
+                                            "field": "element",
+                                            "typeName": "UniqueId",
+                                            "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                            "version": 2,
+                                            "Objects": [
+                                                {
+                                                    "field": "Value",
+                                                    "typeName": "unsigned int",
+                                                    "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                                    "value": "1775920179"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "Speaker",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "owner"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "DialogueData",
+                            "typeId": "{6BF81F0F-0013-4877-80EB-4DC579005DDE}",
+                            "version": 8,
+                            "Objects": [
+                                {
+                                    "field": "ActorText",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "Quiet town"
+                                },
+                                {
+                                    "field": "AvailabilityId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "AudioTrigger",
+                                    "typeName": "ConversationControl",
+                                    "typeId": "{839DC3CD-8F3B-43B3-AE9D-3EC3A4133ADA}",
+                                    "Objects": [
+                                        {
+                                            "field": "Control",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "CinematicId",
+                                    "typeName": "Name",
+                                    "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Comment",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Chunk",
+                                    "typeName": "DialogueChunk",
+                                    "typeId": "{81C04F0E-BA10-4D66-A3E8-0304FB8EB545}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Data",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": "This a might quiet town. I didn't expect such a fully stocked weapons shop."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "DialogueId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "1775920179"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "ResponseIds",
+                                    "typeName": "AZStd::vector<UniqueId, allocator>",
+                                    "typeId": "{081739D8-6508-5100-B614-789CE142CAC9}"
+                                },
+                                {
+                                    "field": "Speaker",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "player"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "DialogueData",
+                            "typeId": "{6BF81F0F-0013-4877-80EB-4DC579005DDE}",
+                            "version": 8,
+                            "Objects": [
+                                {
+                                    "field": "ActorText",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "Another worrier..."
+                                },
+                                {
+                                    "field": "AvailabilityId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "AudioTrigger",
+                                    "typeName": "ConversationControl",
+                                    "typeId": "{839DC3CD-8F3B-43B3-AE9D-3EC3A4133ADA}",
+                                    "Objects": [
+                                        {
+                                            "field": "Control",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "CinematicId",
+                                    "typeName": "Name",
+                                    "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Comment",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Chunk",
+                                    "typeName": "DialogueChunk",
+                                    "typeId": "{81C04F0E-BA10-4D66-A3E8-0304FB8EB545}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Data",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": "Sigh. Don't tell me you believe what those plague doctors are yapping about."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "DialogueId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "1283796353"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "ResponseIds",
+                                    "typeName": "AZStd::vector<UniqueId, allocator>",
+                                    "typeId": "{081739D8-6508-5100-B614-789CE142CAC9}",
+                                    "Objects": [
+                                        {
+                                            "field": "element",
+                                            "typeName": "UniqueId",
+                                            "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                            "version": 2,
+                                            "Objects": [
+                                                {
+                                                    "field": "Value",
+                                                    "typeName": "unsigned int",
+                                                    "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                                    "value": "799123676"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "Speaker",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "owner"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "DialogueData",
+                            "typeId": "{6BF81F0F-0013-4877-80EB-4DC579005DDE}",
+                            "version": 8,
+                            "Objects": [
+                                {
+                                    "field": "ActorText",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "People are dying"
+                                },
+                                {
+                                    "field": "AvailabilityId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "AudioTrigger",
+                                    "typeName": "ConversationControl",
+                                    "typeId": "{839DC3CD-8F3B-43B3-AE9D-3EC3A4133ADA}",
+                                    "Objects": [
+                                        {
+                                            "field": "Control",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "CinematicId",
+                                    "typeName": "Name",
+                                    "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Comment",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": ""
+                                },
+                                {
+                                    "field": "Chunk",
+                                    "typeName": "DialogueChunk",
+                                    "typeId": "{81C04F0E-BA10-4D66-A3E8-0304FB8EB545}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Data",
+                                            "typeName": "AZStd::string",
+                                            "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                            "value": "Listen. People are getting sick left and right. Some are dying ... slowly, but surely. Now there are reports of people ... changing, glowing. I know a sign to leave when I see it."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "DialogueId",
+                                    "typeName": "UniqueId",
+                                    "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                                    "version": 2,
+                                    "Objects": [
+                                        {
+                                            "field": "Value",
+                                            "typeName": "unsigned int",
+                                            "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                            "value": "799123676"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "field": "ResponseIds",
+                                    "typeName": "AZStd::vector<UniqueId, allocator>",
+                                    "typeId": "{081739D8-6508-5100-B614-789CE142CAC9}"
+                                },
+                                {
+                                    "field": "Speaker",
+                                    "typeName": "AZStd::string",
+                                    "typeId": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}",
+                                    "value": "player"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -480,6 +1018,34 @@
                                     "value": "2844253185"
                                 }
                             ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "UniqueId",
+                            "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                            "version": 2,
+                            "Objects": [
+                                {
+                                    "field": "Value",
+                                    "typeName": "unsigned int",
+                                    "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                    "value": "1903506779"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "UniqueId",
+                            "typeId": "{68AE77C6-9865-47DE-8BFE-D6D67663C5DC}",
+                            "version": 2,
+                            "Objects": [
+                                {
+                                    "field": "Value",
+                                    "typeName": "unsigned int",
+                                    "typeId": "{43DA906B-7DEF-4CA8-9790-854106D3F983}",
+                                    "value": "1283796353"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -492,7 +1058,7 @@
                             "field": "element",
                             "typeName": "Name",
                             "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
-                            "value": "node6_actor_dialogue"
+                            "value": "node27_dialogue_link"
                         },
                         {
                             "field": "element",
@@ -516,6 +1082,42 @@
                             "field": "element",
                             "typeName": "Name",
                             "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node23_owner"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node18_owner"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node16_actor_dialogue"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node19_actor_dialogue"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node26_actor_dialogue"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node6_actor_dialogue"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
                             "value": "node9_owner"
                         },
                         {
@@ -528,6 +1130,24 @@
                             "field": "element",
                             "typeName": "Name",
                             "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node15_function"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node21_actor_dialogue"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node22_player"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
                             "value": "node8_player"
                         },
                         {
@@ -535,6 +1155,18 @@
                             "typeName": "Name",
                             "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
                             "value": "node5_player"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node25_player"
+                        },
+                        {
+                            "field": "element",
+                            "typeName": "Name",
+                            "typeId": "{3D2B920C-9EFD-40D5-AAE0-DF131C3D4931}",
+                            "value": "node24_actor_dialogue"
                         }
                     ]
                 }
